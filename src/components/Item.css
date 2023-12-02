@@ -1,0 +1,43 @@
+/* components/Item.css */
+.product-card {
+    width: 100%;
+    max-width: 300px; /* Adjust based on your preference */
+    margin: 5px auto;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust based on your preference */
+    object-fit: contain;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 576px) {
+    .product-card {
+      max-width: 100%;
+    }
+  }
+  

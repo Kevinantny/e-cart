@@ -1,0 +1,29 @@
+/* pages/Home.css */
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* pages/Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Your Font Here', sans-serif; /* Replace with your desired font */
+    font-size: 36px; /* Adjust based on your preference */
+    color: #333; /* Set your desired color */
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  
